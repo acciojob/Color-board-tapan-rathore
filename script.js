@@ -17,11 +17,11 @@ function getRandomColor(){
 }
 
 for(let square of squares){
-	square.addEventListener("mouseenter", ()=>{
+	square.addEventListener("mouseover", ()=>{
 		square.style.backgroundColor=getRandomColor();
 		
 	});
-	square.addEventListener("mouseleave",()=>{
+	square.addEventListener("mouseout",()=>{
 		setTimeout(()=>{
 			square.style.backgroundColor = "#1d1d1d"
 		}, 1000)
