@@ -20,12 +20,12 @@ for(let square of squares){
 	square.addEventListener("mouseenter", ()=>{
 		square.style.backgroundColor=getRandomColor();
 		
+	});
+	square.addEventListener("mouseleave",()=>{
 		setTimeout(()=>{
 			square.style.backgroundColor = "#111"
 		}, 1000)
-
-		
-	});
+	})
 
 }
 
