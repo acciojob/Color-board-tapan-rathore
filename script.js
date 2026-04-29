@@ -23,7 +23,7 @@ for(let square of squares){
 	});
 	square.addEventListener("mouseleave",()=>{
 		setTimeout(()=>{
-			square.style.backgroundColor = "#111"
+			square.style.backgroundColor = "#1d1d1d"
 		}, 1000)
 	})
 
